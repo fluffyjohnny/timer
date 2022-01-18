@@ -8,6 +8,7 @@ const timer = (arr) => {
       if (element > 0 && !isNaN(element)) {
         setTimeout(() => {
           process.stdout.write('\x07');
+          console.log('.');
         }, element * 1000);
       }
     }
